@@ -49,4 +49,35 @@ button {
     font-weight: bold;
     padding: 10px 20px;
     font-size: 1.1em;
+    transition: all 200ms ease-in-out;
+
+}
+
+button:hover {
+    background-color: #19192e;
+    border: 1px solid #59ea8a;
+    color: var(--light-color);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+
+}
+
+.course-card {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.course-card img {
+    width: 100%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.course-card h3 {
+    padding: 10px;
 }
