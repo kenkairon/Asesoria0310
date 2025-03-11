@@ -12,6 +12,19 @@ nav {
     align-items: center;
 }
 
+nav .logo {
+    height: 30px;
+
+}
+
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 30%;
+    font-weight: bold;
+}
+
 aside {
     border: 1px solid red;
 }
