@@ -21,55 +21,50 @@ Educativo y de Aprendizaje Personal
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Asesoria 0310</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <nav>nav</nav>
-        <main>
-            <section>hero</section>
-            <section>galeria</section>
-        </main>
-        <footer>footer</footer>
+        <div class="container">
+            <nav><img
+                    src="https://codigofacilito.com/assets/logo-fd9c72981efb94fa3556a7b272d33b45ef8834027fa4fe9959a56e4b2ebaa798.png"
+                    alt="">
+                <ul>
+                    <li><a href="#">Contenido</a></li>
+                    <li><a href="#">Planes</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>hero</section>
+                <section>galeria</section>
+            </main>
+            <footer>footer</footer>
+        </div>
+
     </body>
 
     </html>
 
 2. CSS
     ```bash 
-    venv\Scripts\activate
+    :root {
+    --light-color: #edf8f2;
+    --dark-color: #19192e;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    font-family: Arial, Helvetica, sans-serif;
+    }
 
-3. Agregamos el requeriments.txt
-    ```bash 
-    asgiref==3.8.1
-    attrs==24.3.0
-    Django==5.1.4
-    djangorestframework==3.15.2
-    drf-spectacular==0.28.0
-    inflection==0.5.1
-    jsonschema==4.23.0
-    jsonschema-specifications==2024.10.1
-    psycopg2==2.9.10
-    PyYAML==6.0.2
-    referencing==0.35.1
-    rpds-py==0.22.3
-    sqlparse==0.5.3
-    tzdata==2024.2
-    uritemplate==4.1.1
-    
-        
-4. Actualizamos los pip
-    ```bash
-    python.exe -m pip install --upgrade pip
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-5. Instamos las dependencias del archivo requirements.txt
-    ```bash
-    pip install -r requirements.txt 
+    aside {
+        border: 1px solid red;
+    }
 
-6. Crear el proyecto de django crud
-    ```bash 
-    django-admin startproject crud
 
-7. Ingresamos al crud
-    ```bash 
-    cd crud
 
