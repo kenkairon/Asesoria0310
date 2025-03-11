@@ -4,14 +4,14 @@ Educativo y de Aprendizaje Personal
 ---
 ## Tabla de Contenidos
 - [Tecnologías](#Tecnologías)
-- [Html](#Html)
-- [Css](#Css)
+- [HTML](#HTML)
+- [CSS](#CSS)
 ---
 # Tecnologías
 - HTML5.
-- cSS
+- CSS3. 
 --- 
-# Configuración Inicial 
+# HTML 
 1. HTML  
    ```bash
    <!DOCTYPE html>
@@ -46,6 +46,7 @@ Educativo y de Aprendizaje Personal
 
     </html>
 
+# CSS
 2. CSS
     ```bash 
     :root {
