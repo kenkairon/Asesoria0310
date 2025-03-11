@@ -1,3 +1,15 @@
+:root {
+    --light-color: #edf8f2;
+    --dark-color: #19192e;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
+    border: 1px solid red;
+}
+
+aside {
     border: 1px solid red;
 }
